@@ -1,10 +1,11 @@
+import { SignIn } from "@clerk/nextjs";
 import Image from "next/image";
-import { SignInForm } from "../components/auth/SignInForm";
+import DashboardPage from "./dashboard/page";
 
 export default function Home() {
   return (
     <>
-      <SignInForm />
+      <DashboardPage />
     </>
   );
 }
